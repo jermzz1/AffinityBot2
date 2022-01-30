@@ -2,7 +2,8 @@
 	"author": "Carlos Ferreras",
 	"license": "MIT",
 	"scripts": {
-		"start": "node index.js"
+		"postinstall": "npm run build",
+		"start": "node server.js"
 	},
 	"dependencies": {
 		"axios": "^0.17.1",
