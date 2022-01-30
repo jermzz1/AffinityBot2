@@ -2,7 +2,6 @@
 	"author": "Carlos Ferreras",
 	"license": "MIT",
 	"scripts": {
-		"postinstall": "npm run build",
 		"start": "node index.js"
 	},
 	"dependencies": {

@@ -2,6 +2,7 @@ require('dotenv').config() // Load .env file
 const axios = require('axios')
 const Discord = require('discord.js')
 const client = new Discord.Client()
+const PORT = process.env.PORT || 5000
 
 function getPrices() {
 
