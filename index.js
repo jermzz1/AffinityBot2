@@ -1,5 +1,4 @@
 require('dotenv').config() // Load .env file
-
 const axios = require('axios')
 const Discord = require('discord.js')
 const client = new Discord.Client()
